@@ -81,7 +81,7 @@ The first repeat calls are shown in a heat map by issue type (Account Management
 ![](resources/First%20repeat%20calls%20by%20issue.png)
 
 ### Extract, Transform and Load (ETL)
-The three market files, market_1, market_2, and market 3 are combined into a single file using Excel PowerQuery. Excel PowerQuery offers a wide array of data load and transformation tools.  The repeat caller count columns are transformed by converting null values to zero.  The following two data sources are created from the Excel PowerQuery transformations:
+The three market files, market_1, market_2, and market 3 are combined into a single file using Excel PowerQuery. The repeat caller count columns are transformed by converting null values to zero.  The following two data sources are created from the Excel PowerQuery transformations:
 
 ***market_data_all_final.csv***
 
@@ -134,7 +134,7 @@ Market one (blue bar) has over 45,000 initial calls which far exceeds initial ca
 
 ![](resources/Repeat%20calls%20by%20day%20worksheet.png)
 <br>
-For every day of the month, days 1 to 30, the number of first and second repeat calls is teh highest.  After repeat call two, the number of repeat calls declines throughout the entire month.
+For every day of the month, days 1 to 30, the number of first and second repeat calls is the highest.  After repeat call two, the number of repeat calls declines throughout the entire month.
 <br>
 
 ![](resources/First%20repeat%20calls%20by%20issue%20worksheet.png)
